@@ -1,3 +1,5 @@
+package dz1;
+
 public class Car {
     private int id;
     private String brand;
@@ -7,7 +9,7 @@ public class Car {
     private int year;
     private String registrationNumber;
 
-    public Car(int id, String brand, String model, String color, double price, String registrationNumber) {
+    public Car(int id, String brand, String model, String color, double price, int year, String registrationNumber) {
         this.id = id;
         this.brand = brand;
         this.model = model;
