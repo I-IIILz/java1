@@ -4,6 +4,7 @@ public class Car {
     private String model;
     private String color;
     private double price;
+    private int year;
     private String registrationNumber;
 
     public Car(int id, String brand, String model, String color, double price, String registrationNumber) {
@@ -12,6 +13,7 @@ public class Car {
         this.model = model;
         this.color = color;
         this.price = price;
+        this.year = year;
         this.registrationNumber = registrationNumber;
     }
 
@@ -33,6 +35,10 @@ public class Car {
 
     public double getPrice() {
         return price;
+    }
+
+    public int getYear() {
+        return year;
     }
 
     public String getRegistrationNumber() {
@@ -57,6 +63,10 @@ public class Car {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public void setYear (int year) {
+        this.year = year;
     }
 
     public void setRegistrationNumber(String registrationNumber) {
